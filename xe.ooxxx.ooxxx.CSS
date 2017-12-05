@@ -1,0 +1,162 @@
+/* GitVote BY SAJJAD */
+html
+{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    border: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    font-family: ALPHA;
+    font-size: 12px;
+	font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    line-height: normal;
+    -webkit-transition: all 0.1s ease 0s;
+    -moz-transition: all 0.1s ease 0s;
+    -ms-transition: all 0.1s ease 0s;
+    -o-transition: all 0.1s ease 0s;
+    transition: all 0.1s ease 0s;
+    -webkit-selection: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    -webkit-color: #242424;
+    -moz-color: #242424;
+    -ms-color: #242424;
+    -o-color: #242424;
+    color: #242424;
+}
+body
+{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    border: 0;
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+    min-width: 100%;
+    padding: 0;
+    text-align: center;
+    font-family: ALPHA;
+    font-size: 12px;
+	font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    line-height: normal;
+    background-color: #202020;
+    -webkit-transition: all 0.1s ease 0s;
+    -moz-transition: all 0.1s ease 0s;
+    -ms-transition: all 0.1s ease 0s;
+    -o-transition: all 0.1s ease 0s;
+    transition: all 0.1s ease 0s;
+    -webkit-selection: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    -webkit-color: #242424;
+    -moz-color: #242424;
+    -ms-color: #242424;
+    -o-color: #242424;
+    color: #242424;
+}
+@font-face
+{
+    font-family: ALPHA;
+    src: url(FONTS/SHARE-TECH-MONO/ShareTechMono-Regular.ttf)
+}
+@font-face
+{
+    font-family: BETA;
+    src: url(FONTS/ROBOTO-MONO/RobotoMono-Light.ttf)
+}
+@font-face
+{
+    font-family: SCODEP;
+    src: url(FONTS/SOURCE-CODE-PRO/SourceCodePro-Medium.ttf)
+}
+ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,hgroup,blockquote,figure,form,fieldset,input,legend,pre,abbr,button,header,section,div
+{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+	margin:0;
+	padding:0;
+    border: 0 solid black;
+    -webkit-border-radius: 0px 0px 0px 0px;
+    -moz-border-radius: 0px 0px 0px 0px;
+    -ms-border-radius: 0px 0px 0px 0px;
+    -o-border-radius: 0px 0px 0px 0px;
+    border-radius: 0px 0px 0px 0px;
+    -webkit-transition: all 0.1s ease 0s;
+    -moz-transition: all 0.1s ease 0s;
+    -ms-transition: all 0.1s ease 0s;
+    -o-transition: all 0.1s ease 0s;
+    transition: all 0.1s ease 0s;
+    -webkit-selection: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    -webkit-color: #242424;
+    -moz-color: #242424;
+    -ms-color: #242424;
+    -o-color: #242424;
+    color: #242424;
+}
+*, *::before, *::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.GitVit
+{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 250px;
+    border-radius:8px;
+    height: 60px;
+    min-height: 60px;
+    width: 280px;
+    min-width: 280px;
+    padding: 0;
+    text-align: center;
+    font-family: BETA;
+    font-size: 32px;
+	font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    line-height: normal;
+    background-color: #aaaaaa;
+    box-shadow: 10px #aaaaaa;
+    -webkit-transition: all 0.1s ease 0s;
+    -moz-transition: all 0.1s ease 0s;
+    -ms-transition: all 0.1s ease 0s;
+    -o-transition: all 0.1s ease 0s;
+    transition: all 0.1s ease 0s;
+    -webkit-selection: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    -webkit-color: #242424;
+    -moz-color: #242424;
+    -ms-color: #242424;
+    -o-color: #242424;
+    color: #242424;
+    cursor: pointer;
+}
