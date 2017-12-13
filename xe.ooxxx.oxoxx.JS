@@ -127,7 +127,7 @@ function VOET() {
     
     var VS = document.getElementById("VS");
     VS.innerHTML = "VOTERS" + " " + VOTERS;
-    TITLEO.innerHTML = VOTERS + " " + "TOTAL VOTE";
+    TITLEO.innerHTML = "TOTAL VOTE" + " " + VOTERS;
     
     //WORK WHEN RADIO CHECKED
     
@@ -137,7 +137,7 @@ function VOET() {
         //TO ADD ONE EVERY CLICK VOTE
         TITLEN.innerHTML = document.getElementById("SNAME01").innerHTML;
         //TO SHOW NAME IN PERSONAL RESULT
-        TITLEV.innerHTML = C01.innerHTML + " " + "VOTES";
+        TITLEV.innerHTML = "VOTES" + " " + C01.innerHTML;
         //TO SHOW VOTES IN PERSONAL RESULT
         TITLEX.innerHTML = P01.innerHTML;
         //TO SHOW PERCENT IN PERCENT IN PERSONAL RESULT
@@ -152,7 +152,7 @@ function VOET() {
         //TO ADD ONE EVERY CLICK VOTE
         TITLEN.innerHTML = document.getElementById("SNAME02").innerHTML;
         //TO SHOW NAME IN PERSONAL RESULT
-        TITLEV.innerHTML = C02.innerHTML + " " + "VOTES";
+        TITLEV.innerHTML = "VOTES" + " " + C02.innerHTML;
         //TO SHOW VOTES IN PERSONAL RESULT
         TITLEX.innerHTML = P02.innerHTML;
         //TO SHOW PERCENT IN PERCENT IN PERSONAL RESULT
@@ -167,7 +167,7 @@ function VOET() {
         //TO ADD ONE EVERY CLICK VOTE
         TITLEN.innerHTML = document.getElementById("SNAME03").innerHTML;
         //TO SHOW NAME IN PERSONAL RESULT
-        TITLEV.innerHTML = C03.innerHTML + " " + "VOTES";
+        TITLEV.innerHTML = "VOTES" + " " + C03.innerHTML;
         //TO SHOW VOTES IN PERSONAL RESULT
         TITLEX.innerHTML = P03.innerHTML;
         //TO SHOW PERCENT IN PERCENT IN PERSONAL RESULT
@@ -182,7 +182,7 @@ function VOET() {
         //TO ADD ONE EVERY CLICK VOTE
         TITLEN.innerHTML = document.getElementById("SNAME04").innerHTML;
         //TO SHOW NAME IN PERSONAL RESULT
-        TITLEV.innerHTML = C04.innerHTML + " " + "VOTES";
+        TITLEV.innerHTML = "VOTES" + " " + C04.innerHTML;
         //TO SHOW VOTES IN PERSONAL RESULT
         TITLEX.innerHTML = P04.innerHTML;
         //TO SHOW PERCENT IN PERCENT IN PERSONAL RESULT
@@ -197,7 +197,7 @@ function VOET() {
         //TO ADD ONE EVERY CLICK VOTE
         TITLEN.innerHTML = document.getElementById("SNAME05").innerHTML;
         //TO SHOW NAME IN PERSONAL RESULT
-        TITLEV.innerHTML = C05.innerHTML + " " + "VOTES";
+        TITLEV.innerHTML = "VOTES" + " " + C05.innerHTML;
         //TO SHOW VOTES IN PERSONAL RESULT
         TITLEX.innerHTML = P05.innerHTML;
         //TO SHOW PERCENT IN PERCENT IN PERSONAL RESULT
@@ -212,7 +212,7 @@ function VOET() {
         //TO ADD ONE EVERY CLICK VOTE
         TITLEN.innerHTML = document.getElementById("SNAME06").innerHTML;
         //TO SHOW NAME IN PERSONAL RESULT
-        TITLEV.innerHTML = C06.innerHTML + " " + "VOTES";
+        TITLEV.innerHTML = "VOTES" + " " + C06.innerHTML;
         //TO SHOW VOTES IN PERSONAL RESULT
         TITLEX.innerHTML = P06.innerHTML;
         //TO SHOW PERCENT IN PERCENT IN PERSONAL RESULT
@@ -227,7 +227,7 @@ function VOET() {
         //TO ADD ONE EVERY CLICK VOTE
         TITLEN.innerHTML = document.getElementById("SNAME07").innerHTML;
         //TO SHOW NAME IN PERSONAL RESULT
-        TITLEV.innerHTML = C07.innerHTML + " " + "VOTES";
+        TITLEV.innerHTML = "VOTES" + " " + C07.innerHTML;
         //TO SHOW VOTES IN PERSONAL RESULT
         TITLEX.innerHTML = P07.innerHTML;
         //TO SHOW PERCENT IN PERCENT IN PERSONAL RESULT
@@ -242,7 +242,7 @@ function VOET() {
         //TO ADD ONE EVERY CLICK VOTE
         TITLEN.innerHTML = document.getElementById("SNAME08").innerHTML;
         //TO SHOW NAME IN PERSONAL RESULT
-        TITLEV.innerHTML = C08.innerHTML + " " + "VOTES";
+        TITLEV.innerHTML = "VOTES" + " " + C08.innerHTML;
         //TO SHOW VOTES IN PERSONAL RESULT
         TITLEX.innerHTML = P08.innerHTML;
         //TO SHOW PERCENT IN PERCENT IN PERSONAL RESULT
@@ -257,7 +257,7 @@ function VOET() {
         //TO ADD ONE EVERY CLICK VOTE
         TITLEN.innerHTML = document.getElementById("SNAME09").innerHTML;
         //TO SHOW NAME IN PERSONAL RESULT
-        TITLEV.innerHTML = C09.innerHTML + " " + "VOTES";
+        TITLEV.innerHTML = "VOTES" + " " + C09.innerHTML;
         //TO SHOW VOTES IN PERSONAL RESULT
         TITLEX.innerHTML = P09.innerHTML;
         //TO SHOW PERCENT IN PERCENT IN PERSONAL RESULT
@@ -272,7 +272,7 @@ function VOET() {
         //TO ADD ONE EVERY CLICK VOTE
         TITLEN.innerHTML = document.getElementById("SNAME10").innerHTML;
         //TO SHOW NAME IN PERSONAL RESULT
-        TITLEV.innerHTML = C10.innerHTML + " " + "VOTES";
+        TITLEV.innerHTML = "VOTES" + " " + C10.innerHTML;
         //TO SHOW VOTES IN PERSONAL RESULT
         TITLEX.innerHTML = P10.innerHTML;
         //TO SHOW PERCENT IN PERCENT IN PERSONAL RESULT
@@ -287,7 +287,7 @@ function VOET() {
         //TO ADD ONE EVERY CLICK VOTE
         TITLEN.innerHTML = document.getElementById("SNAME11").innerHTML;
         //TO SHOW NAME IN PERSONAL RESULT
-        TITLEV.innerHTML = C11.innerHTML + " " + "VOTES";
+        TITLEV.innerHTML = "VOTES" + " " + C11.innerHTML;
         //TO SHOW VOTES IN PERSONAL RESULT
         TITLEX.innerHTML = P11.innerHTML;
         //TO SHOW PERCENT IN PERCENT IN PERSONAL RESULT
@@ -302,7 +302,7 @@ function VOET() {
         //TO ADD ONE EVERY CLICK VOTE
         TITLEN.innerHTML = document.getElementById("SNAME12").innerHTML;
         //TO SHOW NAME IN PERSONAL RESULT
-        TITLEV.innerHTML = C12.innerHTML + " " + "VOTES";
+        TITLEV.innerHTML = "VOTES" + " " + C12.innerHTML;
         //TO SHOW VOTES IN PERSONAL RESULT
         TITLEX.innerHTML = P12.innerHTML;
         //TO SHOW PERCENT IN PERCENT IN PERSONAL RESULT
@@ -317,7 +317,7 @@ function VOET() {
         //TO ADD ONE EVERY CLICK VOTE
         TITLEN.innerHTML = document.getElementById("SNAME13").innerHTML;
         //TO SHOW NAME IN PERSONAL RESULT
-        TITLEV.innerHTML = C13.innerHTML + " " + "VOTES";
+        TITLEV.innerHTML = "VOTES" + " " + C13.innerHTML;
         //TO SHOW VOTES IN PERSONAL RESULT
         TITLEX.innerHTML = P13.innerHTML;
         //TO SHOW PERCENT IN PERCENT IN PERSONAL RESULT
@@ -332,7 +332,7 @@ function VOET() {
         //TO ADD ONE EVERY CLICK VOTE
         TITLEN.innerHTML = document.getElementById("SNAME14").innerHTML;
         //TO SHOW NAME IN PERSONAL RESULT
-        TITLEV.innerHTML = C14.innerHTML + " " + "VOTES";
+        TITLEV.innerHTML = "VOTES" + " " + C14.innerHTML;
         //TO SHOW VOTES IN PERSONAL RESULT
         TITLEX.innerHTML = P14.innerHTML;
         //TO SHOW PERCENT IN PERCENT IN PERSONAL RESULT
@@ -347,7 +347,7 @@ function VOET() {
         //TO ADD ONE EVERY CLICK VOTE
         TITLEN.innerHTML = document.getElementById("SNAME15").innerHTML;
         //TO SHOW NAME IN PERSONAL RESULT
-        TITLEV.innerHTML = C15.innerHTML + " " + "VOTES";
+        TITLEV.innerHTML = "VOTES" + " " + C15.innerHTML;
         //TO SHOW VOTES IN PERSONAL RESULT
         TITLEX.innerHTML = P15.innerHTML;
         //TO SHOW PERCENT IN PERCENT IN PERSONAL RESULT
