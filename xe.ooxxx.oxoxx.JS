@@ -396,7 +396,7 @@ function VOET() {
 
 var countdown = function (end, elements, callback) {
     
-    var _XMX = 10,
+    var _MSE = 10,
         _SEC = 1000, 
         _MIN = _SEC * 60,
         _HOU = _MIN * 60,
@@ -431,7 +431,7 @@ var countdown = function (end, elements, callback) {
                 
                 if(!timer) {
                     
-                    timer = setInterval(calculate, _XMX);
+                    timer = setInterval(calculate, _MSE);
                 }
             }
             data = {
@@ -440,7 +440,7 @@ var countdown = function (end, elements, callback) {
                 'H': Math.floor((remaining % _DAY) / _HOU),
                 'M': Math.floor((remaining % _HOU) / _MIN),
                 'S': Math.floor((remaining % _MIN) / _SEC),
-                'X': Math.floor((remaining % _SEC) / _XMX)
+                'MS': Math.floor((remaining % _SEC) / _MSE)
             }
                     
             if (elements.length) {
@@ -460,4 +460,5 @@ var callbackfunction = function() {
     
     console.log('Done!');
         }
-countdown('2018/10/10 05:33:00 PM' , ['D', 'H', 'M', 'S', 'X'], callbackfunction);
+countdown('2018/10/10 05:33:00 PM' , ['D', 'H', 'M', 'S', 'MS'], callbackfunction);
+
