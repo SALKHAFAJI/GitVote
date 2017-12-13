@@ -1,4 +1,4 @@
-//XOV BY SAJJAD
+//GitVote BY SAJJAD
 
 "use strict";
 function VOET() {
