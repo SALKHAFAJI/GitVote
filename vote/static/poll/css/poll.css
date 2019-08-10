@@ -1,4 +1,4 @@
-/* GitVote BY SAJJAD */
+/* vote poll BY SAJJAD */
 html
 {
     top: 0;
@@ -69,21 +69,7 @@ body
     -o-color: #242424;
     color: #242424;
 }
-@font-face
-{
-    font-family: ALPHA;
-    src: url(FONTS/SHARE-TECH-MONO/ShareTechMono-Regular.ttf)
-}
-@font-face
-{
-    font-family: BETA;
-    src: url(FONTS/ROBOTO-MONO/RobotoMono-Light.ttf)
-}
-@font-face
-{
-    font-family: SCODEP;
-    src: url(FONTS/SOURCE-CODE-PRO/SourceCodePro-Medium.ttf)
-}
+
 ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,hgroup,blockquote,figure,form,fieldset,input,legend,pre,abbr,button,header,section,div
 {
     top: 0;
@@ -331,7 +317,7 @@ ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,hgroup,blockquote,figure,form,fieldset,inp
     cursor: pointer;
 }
 .NAME
-{   
+{
     top: 0;
     left: 0;
     right: 0;
@@ -461,7 +447,7 @@ ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,hgroup,blockquote,figure,form,fieldset,inp
     outline: none:
 }
 .CB
-{    
+{
     top: 0;
     left: 0;
     right: 0;
@@ -720,7 +706,7 @@ ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,hgroup,blockquote,figure,form,fieldset,inp
     color: #242424;
     cursor: default;
     overflow: hidden;
-    
+
 }
 .PROGRESS02
 {
@@ -754,24 +740,24 @@ ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,hgroup,blockquote,figure,form,fieldset,inp
     cursor: default;
     /* MOVE DIV*/
     -webkit-animation-name: MOVE;
-    -webkit-animation-duration: 1s;  
+    -webkit-animation-duration: 1s;
     -webkit-animation-timing-function: cubic-bezier;
-    -webkit-animation-iteration-count: infinite;   
+    -webkit-animation-iteration-count: infinite;
     -moz-animation-name: MOVE;
-    -moz-animation-duration: 1s;  
+    -moz-animation-duration: 1s;
     -moz-animation-timing-function: cubic-bezier;
-    -moz-animation-iteration-count: infinite;   
+    -moz-animation-iteration-count: infinite;
     -ms-animation-name: MOVE;
-    -ms-animation-duration: 1s;  
+    -ms-animation-duration: 1s;
     -ms-animation-timing-function: cubic-bezier;
     -ms-animation-iteration-count: infinite;
     -o-animation-name: MOVE;
-    -o-animation-duration: 1s;  
+    -o-animation-duration: 1s;
     -o-animation-timing-function: cubic-bezier;
-    -o-animation-iteration-count: infinite;   
+    -o-animation-iteration-count: infinite;
     animation-name: MOVE;
-    animation-duration: 1s;  
-    animation-timing-function: cubic-bezier;  
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier;
     animation-iteration-count: infinite;
 }
 @-webkit-keyframes MOVE {
@@ -861,7 +847,7 @@ ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,hgroup,blockquote,figure,form,fieldset,inp
     cursor: default;
 }
 .TIME
-{    
+{
     top: 0;
     left: 0;
     right: 0;
@@ -950,4 +936,3 @@ ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,hgroup,blockquote,figure,form,fieldset,inp
     color: #050505;
     cursor: default;
 }
-

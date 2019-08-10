@@ -1,0 +1,15 @@
+@font-face
+{
+    font-family: ALPHA;
+    src: url(SHARE-TECH-MONO/ShareTechMono-Regular.ttf)
+}
+@font-face
+{
+    font-family: BETA;
+    src: url(ROBOTO-MONO/RobotoMono-Light.ttf)
+}
+@font-face
+{
+    font-family: SCODEP;
+    src: url(SOURCE-CODE-PRO/SourceCodePro-Medium.ttf)
+}

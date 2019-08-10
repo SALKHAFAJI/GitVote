@@ -1,0 +1,27 @@
+<!DOCTYPE html5>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <title>GitVote</title>{% load static %}
+      <link rel="stylesheet" type="text/css" href="{% static 'poll/css/createPoll.css' %}">
+      <link rel="stylesheet" type="text/css" href="{% static 'fonts/fonts.css' %}">
+      <!-- <script type="text/javascript" src="{% static 'poll/js/poll.js' %}"></script> -->
+      <meta http-equiv="content-type" content="text/html" charset="utf-8">
+  </head>
+  <body>
+
+    <div class="Candidates">
+      {% for candidate in candidates %}
+      <p>{{ candidate.name }}</p>
+      {% endfor %}
+    </div>
+    <form class="addOneForm" action="/createPoll/addOne/" method="post">{% csrf_token %}
+      <input type="text" name="candidate" placeholder="candidate">
+    </form>
+    <form class="SubmitPollForm" action="/submitPoll/" method="post">{% csrf_token %}
+      <input type="date" name="startDate" placeholder="Start Date">
+      <input type="date" name="endDate" placeholder="End Date">
+      <input type="submit" name="" value="submit">
+    </form>
+  </body>
+</html>
